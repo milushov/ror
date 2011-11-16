@@ -1,4 +1,6 @@
 Ror::Application.routes.draw do
+  resources :posts
+
   get "home/index"
   get "say/hello"
 
