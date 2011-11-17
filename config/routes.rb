@@ -4,6 +4,10 @@ Ror::Application.routes.draw do
   get "home/index"
   get "say/hello"
 
+  resources :post do
+    resources :comments
+  end
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
