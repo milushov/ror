@@ -7,3 +7,17 @@
 //= require jquery
 //= require jquery_ujs
 //= require_tree .
+
+/*
+
+debug = 1
+
+$(document).ready( (){
+ log "hello"
+})
+
+log = (m) ->
+	!m || !debug return
+	console.log(m)
+
+*/
