@@ -7,6 +7,7 @@ gem 'rails', '3.1.1'
 
 gem 'pg'
 gem 'execjs'
+gem 'therubyracer'
 
 
 #If you want to use Sqlite3 in development and test
