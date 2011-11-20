@@ -6,6 +6,7 @@ gem 'rails', '3.1.1'
 # gem 'rails',     :git => 'git://github.com/rails/rails.git'
 
 gem 'pg'
+gem 'execjs'
 
 
 #If you want to use Sqlite3 in development and test
@@ -17,8 +18,6 @@ gem 'pg'
 #group :production do
 #  gem 'pg'
 #end
-
-
 
 
 # Gems used only for assets and not required
