@@ -5,10 +5,7 @@ gem 'rails', '3.1.1'
 # Bundle edge Rails instead:
 # gem 'rails',     :git => 'git://github.com/rails/rails.git'
 
-gem 'pg'
-gem 'execjs'
-gem 'therubyracer'
-
+gem 'pg'	
 
 #If you want to use Sqlite3 in development and test
 # Gemfile
